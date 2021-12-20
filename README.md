@@ -1,8 +1,8 @@
-# untitled
+# Crypto Scout
 
-A new Flutter project.
+Crypto market tracker for Android and IOS.
 
-## Getting Started
+## In construction ....
 
 This project is a starting point for a Flutter application.
 
