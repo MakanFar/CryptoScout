@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:untitled/repository/repository.dart';
 import 'package:untitled/models/fetch_coins_models.dart';
 import 'package:untitled/widget/coin_list_widget.dart';
+import 'package:untitled/screens/navbar_screen.dart';
 
 class FirstScreen extends StatefulWidget {
   const FirstScreen({
