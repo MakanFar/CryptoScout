@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "211586072181",
+    "project_id": "crypto-f29db",
+    "storage_bucket": "crypto-f29db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211586072181:android:502aa29669e6674dc5423c",
+        "android_client_info": {
+          "package_name": "com.example.untitled"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211586072181-ptrg5kq3qrb7iuth84n3cr6nv6fskc85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYDWyWUrLlxpNxYYME8XjtEf4QlyeQBA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211586072181-ptrg5kq3qrb7iuth84n3cr6nv6fskc85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
