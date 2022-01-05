@@ -3,6 +3,7 @@ import 'package:untitled/models/data_model.dart';
 import 'package:untitled/models/chart_data.dart';
 import 'coin_logo_widget.dart';
 import 'coin_chart_widget.dart';
+import 'package:untitled/screens/coin_screen.dart';
 
 class CoinListWidget extends StatelessWidget {
   final List<DataModel> coins;
@@ -22,7 +23,7 @@ class CoinListWidget extends StatelessWidget {
             padding:
                 const EdgeInsets.symmetric(horizontal: 24.0, vertical: 16.0),
             child: Text(
-              "Crypto Scout",
+              "Crypto Currency",
               style: Theme.of(context).textTheme.headline5,
             ),
           ),
@@ -44,6 +45,13 @@ class CoinListWidget extends StatelessWidget {
                   ChartData(coinPrice.percentChange_1h, 1),
                 ];
                 return GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => CoinDetailScreen(coin: coin)),
+                    );
+                  },
                   child: Container(
                     height: 160.0,
                     width: double.infinity,

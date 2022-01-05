@@ -1,4 +1,5 @@
 import 'usd_model.dart';
+import 'quote_model.dart';
 
 class DataModel {
   final int id;
@@ -45,19 +46,6 @@ class DataModel {
       json["cmc_rank"],
       json["last_updated"],
       QuoteModel.fromJson(json["quote"]),
-    );
-  }
-}
-
-class QuoteModel {
-  final UsdModel usdModel;
-
-  QuoteModel({
-    required this.usdModel,
-  });
-  factory QuoteModel.fromJson(Map<String, dynamic> json) {
-    return QuoteModel(
-      usdModel: UsdModel.fromJson(json["USD"]),
     );
   }
 }

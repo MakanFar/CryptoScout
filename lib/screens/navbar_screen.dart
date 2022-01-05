@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/screens/first_screen.dart';
+import 'package:untitled/screens/profile_screen.dart';
 
 class MyHomeScreen extends StatefulWidget {
   const MyHomeScreen({
@@ -20,6 +21,7 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
 
   static const List<Widget> _screenList = [
     FirstScreen(),
+    ProfileScreen(),
   ];
 
   @override
@@ -32,10 +34,6 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
           BottomNavigationBarItem(
             icon: Icon(Icons.analytics),
             label: 'Crypto',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.pie_chart),
-            label: 'Dash Board',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
